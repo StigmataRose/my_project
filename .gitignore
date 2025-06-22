@@ -1,0 +1,28 @@
+# Directories to ignore
+# ---------------------
+
+# Build output directory:
+# This directory is where CMake generates build files, object files, and executables.
+# It should always be ignored as its contents are generated from source.
+build/
+
+# IDE-specific directories:
+# If you are using Visual Studio Code, a '.vscode/' directory might be created
+# for project settings and user preferences. This should typically be ignored
+# as it's specific to your local setup and not part of the core project.
+.vscode/
+
+visage/
+# Temporary or local working files:
+# These files appear to be temporary notes or scratchpads. They are usually
+# not part of the final project source code and should be ignored.
+readme.txt
+working.txt
+workingcpp.txt
+
+# Files that should NOT be ignored (typically tracked in Git):
+# -------------------------------------------------------------
+# CMakeLists.txt    # Essential for defining your CMake project build
+# README.md         # Project documentation
+# index.html        # Web page source (if this is a web project component)
+# main.cpp          # Main C++ source file
